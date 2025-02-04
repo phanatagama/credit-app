@@ -25,7 +25,7 @@ const Progres: React.FC = () => {
     };
 
     return (
-        <div className="p-4">
+        <div className="p-4 border-2 rounded-2xl">
             <h1 className="text-2xl font-bold mb-4">Aplikasi Pengajuan Kredit</h1>
             <ul className="flex space-x-4 justify-center">
                 {processes.map((process) => (
@@ -33,7 +33,7 @@ const Progres: React.FC = () => {
                         <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white mb-2">
                             <FaCheckCircle />
                         </div>
-                        <span>{process.name}</span>
+                        <span className={selectedProcess === process ? 'text-green-300' : ''}>{process.name}</span>
                     </li>
                 ))}
             </ul>
