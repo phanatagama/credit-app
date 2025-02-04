@@ -1,10 +1,11 @@
-import { Header } from "./Header.tsx";
-import Progres from "./Progres.tsx";
-export const Index = () => {
+import { Header } from "./header";
+import Progres from "./progres";
+
+export const MyApp = () => {
   return (
     <div>
       <Header />
-        <Progres />
+      <Progres />
     </div>
   );
 };
