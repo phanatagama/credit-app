@@ -1,7 +1,15 @@
+![credit-app](https://socialify.git.ci/phanatagama/credit-app/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto)
+
 # Credit App
 
-This is a Web Application project for managing credit applications.
+This is a Web Application project for managing credit applications. You can access the demo of this site at https://credit-app-silk.vercel.app/
 
+## 💡Tech Stack
+- Vite
+- ReactJs
+- Typescript
+- Tailwind CSS
+  
 ## Prerequisites
 
 - Node.js (v18 or higher)
@@ -39,6 +47,10 @@ To build the project for production, use:
 ```sh
 pnpm build
 ```
+
+## ⚡Preview 
+![image](https://github.com/user-attachments/assets/12ab136f-344b-4aaf-84d2-d182fc9279be)
+
 
 ## License
 
