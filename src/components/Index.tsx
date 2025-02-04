@@ -1,5 +1,5 @@
-import { Header } from "./Header";
-import Progres from "./Progres";
+import { Header } from "./Header.tsx";
+import Progres from "./Progres.tsx";
 export const Index = () => {
   return (
     <div>
