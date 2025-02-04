@@ -1,5 +1,5 @@
-import { Header } from "./header";
-import Progres from "./progres";
+import { Header } from "@components/header";
+import Progres from "@components/progres";
 
 export const MyApp = () => {
   return (
