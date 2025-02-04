@@ -15,18 +15,6 @@ export default defineConfig({
     alias: {
       "@": root,
     } as AliasOptions,
-    // alias: [
-    //   {
-    //     find: "@",
-    //     replacement: fileURLToPath(new URL("./src", import.meta.url)),
-    //   },
-    //   {
-    //     find: "@components",
-    //     replacement: fileURLToPath(
-    //       new URL("./src/components", import.meta.url)
-    //     ),
-    //   },
-    // ],
   },
   plugins: [react(), tailwindcss(), tsconfigPaths()],
 });
